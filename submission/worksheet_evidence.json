@@ -1,0 +1,367 @@
+{
+ "source_columns": {
+  "fafb_annotations_v3.2.0": [
+   "supervoxel_id",
+   "root_id",
+   "pos_x",
+   "pos_y",
+   "pos_z",
+   "soma_x",
+   "soma_y",
+   "soma_z",
+   "nucleus_id",
+   "flow",
+   "super_class",
+   "cell_class",
+   "cell_sub_class",
+   "supertype",
+   "cell_type",
+   "hemibrain_type",
+   "ito_lee_hemilineage",
+   "hartenstein_hemilineage",
+   "top_nt",
+   "top_nt_conf",
+   "known_nt",
+   "known_nt_source",
+   "side",
+   "nerve",
+   "vfb_id",
+   "fbbt_id",
+   "status",
+   "dimorphism",
+   "matching_notes",
+   "fru_dsx",
+   "synonyms"
+  ],
+  "malecns_body_annotations": [
+   "assignedOlHex1",
+   "assignedOlHex2",
+   "bodyId",
+   "flywireType",
+   "group",
+   "instance",
+   "somaSide",
+   "statusLabel",
+   "superclass",
+   "type",
+   "vfbId",
+   "hemibrainType",
+   "itoleeHl",
+   "supertype",
+   "birthtime",
+   "mancBodyid",
+   "mancGroup",
+   "mancType",
+   "subclass",
+   "synonyms",
+   "class",
+   "rootSide",
+   "somaNeuromere",
+   "trumanHl",
+   "dimorphism",
+   "matchingNotes",
+   "entryNerve",
+   "mancSerial",
+   "mcnsSerial",
+   "serialMotif",
+   "fruDsx",
+   "exitNerve",
+   "receptorType",
+   "somaLocation",
+   "tosomaLocation",
+   "status"
+  ]
+ },
+ "value_counts": {
+  "fafb": {
+   "side": {
+    "left": 69956,
+    "right": 69088,
+    "center": 174,
+    "unknown": 44
+   },
+   "super_class": {
+    "optic": 77541,
+    "central": 32383,
+    "sensory": 17519,
+    "visual_projection": 8038,
+    "ascending": 1750,
+    "descending": 1303,
+    "visual_centrifugal": 524,
+    "motor": 110,
+    "endocrine": 80,
+    "unknown": 14
+   },
+   "nt_type": {
+    "acetylcholine": 86193,
+    "glutamate": 24875,
+    "gaba": 19171,
+    "dopamine": 5909,
+    "serotonin": 2282,
+    "unknown": 616,
+    "octopamine": 216,
+    "histamine": 0
+   }
+  },
+  "malecns": {
+   "side": {
+    "right": 82738,
+    "left": 81362,
+    "unknown": 630,
+    "center": 392
+   },
+   "super_class": {
+    "optic": 89390,
+    "central": 32160,
+    "sensory": 15884,
+    "unknown": 13855,
+    "visual_projection": 9201,
+    "ascending": 1846,
+    "descending": 1314,
+    "motor": 815,
+    "visual_centrifugal": 563,
+    "endocrine": 94
+   },
+   "nt_type": {
+    "acetylcholine": 94946,
+    "glutamate": 28055,
+    "gaba": 20218,
+    "unknown": 14867,
+    "dopamine": 4443,
+    "histamine": 2026,
+    "serotonin": 465,
+    "octopamine": 102
+   }
+  }
+ },
+ "null_counts": {
+  "fafb": {
+   "neuron_id": 0,
+   "dataset": 0,
+   "release": 0,
+   "cell_type": 1542,
+   "cell_class": 31744,
+   "cell_sub_class": 113435,
+   "super_class": 0,
+   "side": 0,
+   "region": 0,
+   "nt_type": 0,
+   "nt_confidence": 616,
+   "n_pre": 139262,
+   "n_post": 139262,
+   "flywire_type": 139262,
+   "manc_type": 139262,
+   "hemibrain_type": 105991,
+   "dimorphism": 14,
+   "status": 138604,
+   "hemilineage": 101720,
+   "nt_known": 51425
+  },
+  "malecns": {
+   "neuron_id": 0,
+   "dataset": 0,
+   "release": 0,
+   "cell_type": 2605,
+   "cell_class": 140598,
+   "cell_sub_class": 143198,
+   "super_class": 0,
+   "side": 0,
+   "region": 0,
+   "nt_type": 0,
+   "nt_confidence": 14867,
+   "n_pre": 0,
+   "n_post": 0,
+   "flywire_type": 23953,
+   "manc_type": 142379,
+   "hemibrain_type": 132203,
+   "dimorphism": 162754,
+   "status": 0,
+   "hemilineage": 127377,
+   "nt_known": 165122
+  }
+ },
+ "unknown_counts": {
+  "fafb": {
+   "side": 44,
+   "super_class": 14,
+   "nt_type": 616,
+   "region": 623
+  },
+  "malecns": {
+   "side": 630,
+   "super_class": 13855,
+   "nt_type": 14867,
+   "region": 338
+  }
+ },
+ "edges": {
+  "fafb": {
+   "tau1": 15091983,
+   "tau5": 2700513,
+   "syn_tau1": 54492922
+  },
+  "malecns": {
+   "tau1": 25563096,
+   "tau5": 6235649,
+   "syn_tau1": 124024573
+  }
+ },
+ "cache_files_MB": {
+  "fafb_edgeroi_783_buhmann_min1.parquet": 119.7,
+  "fafb_edges_783_buhmann_min1.parquet": 95.7,
+  "fafb_neurons_783_ann3.2.0.parquet": 2.7,
+  "malecns_edgeroi_v1.0_traced_min1_conf0.5.parquet": 273.2,
+  "malecns_edges_v1.0_traced_min1_conf0.5.parquet": 189.5,
+  "malecns_neurons_v1.0_traced.parquet": 3.4
+ },
+ "edgeroi_rows_fafb": 16847997,
+ "D2": {
+  "max_id": 720575940661339777,
+  "as_float64": 720575940661339776,
+  "diff": -1,
+  "collisions_fafb": 28597
+ },
+ "D4": {
+  "fafb": {
+   "count": 138646.0,
+   "mean": 0.673,
+   "std": 0.161,
+   "min": 0.21,
+   "10%": 0.448,
+   "25%": 0.549,
+   "50%": 0.686,
+   "75%": 0.808,
+   "max": 1.0
+  },
+  "malecns": {
+   "count": 150255.0,
+   "mean": 0.891,
+   "std": 0.098,
+   "min": 0.5,
+   "10%": 0.754,
+   "25%": 0.836,
+   "50%": 0.937,
+   "75%": 0.967,
+   "max": 0.975
+  }
+ },
+ "D13": {
+  "fafb": {
+   "neurons_with_syn": 138639,
+   "optic_share_ge_0.5": 94382,
+   "ambiguous_20_80": 5967,
+   "ambiguous_10_90": 7344
+  },
+  "malecns_brain": {
+   "neurons_with_syn": 142757,
+   "optic_share_ge_0.5": 98739,
+   "ambiguous_20_80": 6418,
+   "ambiguous_10_90": 8142
+  },
+  "flag_share": {
+   "fafb": 0.6805015007683359,
+   "malecns_brain": 0.6927871207639652
+  },
+  "fafb_superclass_optic_share": 0.618280650859531
+ },
+ "D15": {
+  "fafb": {
+   "neurons": 138639,
+   "exact_tie": 319,
+   "second_ge_90pct": 9543,
+   "second_ge_80pct": 19600,
+   "top_share_lt_50pct": 20070
+  },
+  "malecns_brain": {
+   "neurons": 142757,
+   "exact_tie": 73,
+   "second_ge_90pct": 7916,
+   "second_ge_80pct": 16696,
+   "top_share_lt_50pct": 21875
+  }
+ },
+ "D16": {
+  "fafb_all": {
+   "neurons": 139262,
+   "zero_in": 28941,
+   "zero_out": 28141,
+   "zero_both": 14817,
+   "zero_total_in_syn_tau1": 2172,
+   "zero_total_out_syn_tau1": 1257
+  },
+  "fafb_central": {
+   "neurons": 44494,
+   "zero_in": 9211,
+   "zero_out": 7020,
+   "zero_both": 4881,
+   "zero_total_in_syn_tau1": 725,
+   "zero_total_out_syn_tau1": 808
+  },
+  "malecns_brain_all": {
+   "neurons": 141996,
+   "zero_in": 8151,
+   "zero_out": 8630,
+   "zero_both": 2083,
+   "zero_total_in_syn_tau1": 139,
+   "zero_total_out_syn_tau1": 1057
+  },
+  "malecns_brain_central": {
+   "neurons": 43623,
+   "zero_in": 3028,
+   "zero_out": 1199,
+   "zero_both": 709,
+   "zero_total_in_syn_tau1": 23,
+   "zero_total_out_syn_tau1": 33
+  }
+ },
+ "D18": {
+  "fafb": {
+   "neurons": 139262,
+   "untyped": 1542,
+   "typed_side_center_or_unknown": 119,
+   "paired": 132604,
+   "excess_unequal": 4997,
+   "types": 8788,
+   "types_one_side_only": 123,
+   "types_unequal": 2064
+  },
+  "fafb_central": {
+   "neurons": 44494,
+   "untyped": 916,
+   "typed_side_center_or_unknown": 119,
+   "paired": 40294,
+   "excess_unequal": 3165,
+   "types": 8249,
+   "types_one_side_only": 169,
+   "types_unequal": 1865
+  }
+ },
+ "D14": {
+  "central": {
+   "info": {
+    "neurons": 43871,
+    "columns": 162
+   },
+   "PC1": {
+    "component": "PC1",
+    "r": 0.4268436543391187,
+    "spearman_rho": 0.8587138770280788,
+    "explained_variance": 0.05557098549228141
+   },
+   "max_abs_spearman_PC1_5": 0.8587138770280788
+  },
+  "all": {
+   "info": {
+    "neurons": 138639,
+    "columns": 162
+   },
+   "PC1": {
+    "component": "PC1",
+    "r": 0.35458343296088346,
+    "spearman_rho": 0.8853413756947616,
+    "explained_variance": 0.05275379560537253
+   },
+   "max_abs_spearman_PC1_5": 0.8853413756947616
+  }
+ }
+}
