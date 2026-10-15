@@ -1,0 +1,12 @@
+# secrets
+.env
+# data cache (D7)
+data/cache/
+data/raw/
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
