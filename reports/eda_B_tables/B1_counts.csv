@@ -1,0 +1,8 @@
+count,fafb,malecns
+edges,15091983.0,21265290.0
+synapses,54492922.0,97306032.0
+self_connections_in_table,0.0,0.0
+self_connections_dropped_logged,0.0,101.0
+edgeroi_rows,16847997.0,24194908.0
+edgeroi_rows_per_edge,1.1163540934282792,1.1377652503210631
+edgeroi_synapses,54492922.0,97306032.0

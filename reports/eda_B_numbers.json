@@ -1,0 +1,686 @@
+{
+ "step0": {
+  "neurons": {
+   "fafb": 139262,
+   "malecns": 165122
+  },
+  "edges_tau1": {
+   "fafb": 15091983,
+   "malecns": 25563096
+  },
+  "edges_ge5": {
+   "fafb": 2700513,
+   "malecns": 6235649
+  }
+ },
+ "eda_population_sizes": {
+  "fafb": {
+   "all": 139262,
+   "central": 44494,
+   "optic": 94768
+  },
+  "malecns": {
+   "all": 141996,
+   "central": 43623,
+   "optic": 98373
+  }
+ },
+ "B1_counts": {
+  "fafb": {
+   "edges": 15091983.0,
+   "synapses": 54492922.0,
+   "self_connections_in_table": 0.0,
+   "self_connections_dropped_logged": 0.0,
+   "edgeroi_rows": 16847997.0,
+   "edgeroi_rows_per_edge": 1.1163540934282792,
+   "edgeroi_synapses": 54492922.0
+  },
+  "malecns": {
+   "edges": 21265290.0,
+   "synapses": 97306032.0,
+   "self_connections_in_table": 0.0,
+   "self_connections_dropped_logged": 101.0,
+   "edgeroi_rows": 24194908.0,
+   "edgeroi_rows_per_edge": 1.1377652503210631,
+   "edgeroi_synapses": 97306032.0
+  }
+ },
+ "B1_share_ge": {
+  "fafb_all": {
+   "5": 0.17893692300077466,
+   "10": 0.07068799375138443,
+   "31": 0.01095628056299825
+  },
+  "fafb_central": {
+   "5": 0.1940004810262732,
+   "10": 0.09104968002320943,
+   "31": 0.01820127264111545
+  },
+  "malecns_all": {
+   "5": 0.2362787904608872,
+   "10": 0.10008389257799917,
+   "31": 0.017650123746255048
+  },
+  "malecns_central": {
+   "5": 0.24090600258435887,
+   "10": 0.11856928080003486,
+   "31": 0.02833942171242842
+  }
+ },
+ "B2": [
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "criterion": ">= 1 syn",
+   "edges": 15091983,
+   "edges_pct": 100.0,
+   "synapses_pct": 100.0,
+   "neurons_isolated": 623,
+   "isolated_pct": 0.447,
+   "median_in_degree": 69.0,
+   "median_out_degree": 79.0,
+   "p99_out_degree": 598.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "criterion": ">= 5 syn",
+   "edges": 2700513,
+   "edges_pct": 17.894,
+   "synapses_pct": 62.675,
+   "neurons_isolated": 5081,
+   "isolated_pct": 3.649,
+   "median_in_degree": 9.0,
+   "median_out_degree": 11.0,
+   "p99_out_degree": 134.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "criterion": ">= 10 syn",
+   "edges": 1066822,
+   "edges_pct": 7.069,
+   "synapses_pct": 43.427,
+   "neurons_isolated": 14817,
+   "isolated_pct": 10.64,
+   "median_in_degree": 3.0,
+   "median_out_degree": 3.0,
+   "p99_out_degree": 67.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "criterion": ">= 31 syn",
+   "edges": 165352,
+   "edges_pct": 1.096,
+   "synapses_pct": 17.577,
+   "neurons_isolated": 83554,
+   "isolated_pct": 59.998,
+   "median_in_degree": 0.0,
+   "median_out_degree": 0.0,
+   "p99_out_degree": 18.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "criterion": ">= 0.9% of input",
+   "edges": 3381922,
+   "edges_pct": 22.409,
+   "synapses_pct": 49.636,
+   "neurons_isolated": 742,
+   "isolated_pct": 0.533,
+   "median_in_degree": 25.0,
+   "median_out_degree": 13.0,
+   "p99_out_degree": 177.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "criterion": ">= 2.6% of input",
+   "edges": 957281,
+   "edges_pct": 6.343,
+   "synapses_pct": 23.874,
+   "neurons_isolated": 1853,
+   "isolated_pct": 1.331,
+   "median_in_degree": 7.0,
+   "median_out_degree": 2.0,
+   "p99_out_degree": 54.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "criterion": ">= 1 syn",
+   "edges": 5725259,
+   "edges_pct": 100.0,
+   "synapses_pct": 100.0,
+   "neurons_isolated": 625,
+   "isolated_pct": 1.405,
+   "median_in_degree": 89.0,
+   "median_out_degree": 97.0,
+   "p99_out_degree": 648.07
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "criterion": ">= 5 syn",
+   "edges": 1110703,
+   "edges_pct": 19.4,
+   "synapses_pct": 69.545,
+   "neurons_isolated": 1719,
+   "isolated_pct": 3.863,
+   "median_in_degree": 10.0,
+   "median_out_degree": 13.0,
+   "p99_out_degree": 177.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "criterion": ">= 10 syn",
+   "edges": 521283,
+   "edges_pct": 9.105,
+   "synapses_pct": 53.736,
+   "neurons_isolated": 4916,
+   "isolated_pct": 11.049,
+   "median_in_degree": 4.0,
+   "median_out_degree": 5.0,
+   "p99_out_degree": 100.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "criterion": ">= 31 syn",
+   "edges": 104207,
+   "edges_pct": 1.82,
+   "synapses_pct": 25.843,
+   "neurons_isolated": 21147,
+   "isolated_pct": 47.528,
+   "median_in_degree": 0.0,
+   "median_out_degree": 0.0,
+   "p99_out_degree": 27.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "criterion": ">= 0.9% of input",
+   "edges": 1000229,
+   "edges_pct": 17.47,
+   "synapses_pct": 48.278,
+   "neurons_isolated": 663,
+   "isolated_pct": 1.49,
+   "median_in_degree": 23.0,
+   "median_out_degree": 12.0,
+   "p99_out_degree": 179.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "criterion": ">= 2.6% of input",
+   "edges": 285223,
+   "edges_pct": 4.982,
+   "synapses_pct": 22.366,
+   "neurons_isolated": 1457,
+   "isolated_pct": 3.275,
+   "median_in_degree": 6.0,
+   "median_out_degree": 1.0,
+   "p99_out_degree": 79.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "criterion": ">= 1 syn",
+   "edges": 8586905,
+   "edges_pct": 100.0,
+   "synapses_pct": 100.0,
+   "neurons_isolated": 0,
+   "isolated_pct": 0.0,
+   "median_in_degree": 59.0,
+   "median_out_degree": 65.0,
+   "p99_out_degree": 527.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "criterion": ">= 5 syn",
+   "edges": 1447562,
+   "edges_pct": 16.858,
+   "synapses_pct": 56.43,
+   "neurons_isolated": 3383,
+   "isolated_pct": 3.57,
+   "median_in_degree": 9.0,
+   "median_out_degree": 10.0,
+   "p99_out_degree": 86.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "criterion": ">= 10 syn",
+   "edges": 487974,
+   "edges_pct": 5.683,
+   "synapses_pct": 34.071,
+   "neurons_isolated": 10185,
+   "isolated_pct": 10.747,
+   "median_in_degree": 2.0,
+   "median_out_degree": 2.0,
+   "p99_out_degree": 39.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "criterion": ">= 31 syn",
+   "edges": 50753,
+   "edges_pct": 0.591,
+   "synapses_pct": 9.947,
+   "neurons_isolated": 63660,
+   "isolated_pct": 67.175,
+   "median_in_degree": 0.0,
+   "median_out_degree": 0.0,
+   "p99_out_degree": 6.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "criterion": ">= 0.9% of input",
+   "edges": 2280495,
+   "edges_pct": 26.558,
+   "synapses_pct": 52.009,
+   "neurons_isolated": 83,
+   "isolated_pct": 0.088,
+   "median_in_degree": 25.0,
+   "median_out_degree": 13.0,
+   "p99_out_degree": 166.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "criterion": ">= 2.6% of input",
+   "edges": 652722,
+   "edges_pct": 7.601,
+   "synapses_pct": 26.052,
+   "neurons_isolated": 1338,
+   "isolated_pct": 1.412,
+   "median_in_degree": 7.0,
+   "median_out_degree": 2.0,
+   "p99_out_degree": 45.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "criterion": ">= 1 syn",
+   "edges": 21265290,
+   "edges_pct": 100.0,
+   "synapses_pct": 100.0,
+   "neurons_isolated": 88,
+   "isolated_pct": 0.062,
+   "median_in_degree": 96.0,
+   "median_out_degree": 110.0,
+   "p99_out_degree": 747.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "criterion": ">= 5 syn",
+   "edges": 5024537,
+   "edges_pct": 23.628,
+   "synapses_pct": 70.335,
+   "neurons_isolated": 449,
+   "isolated_pct": 0.316,
+   "median_in_degree": 18.0,
+   "median_out_degree": 24.0,
+   "p99_out_degree": 200.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "criterion": ">= 10 syn",
+   "edges": 2128313,
+   "edges_pct": 10.008,
+   "synapses_pct": 51.109,
+   "neurons_isolated": 2083,
+   "isolated_pct": 1.467,
+   "median_in_degree": 6.0,
+   "median_out_degree": 8.0,
+   "p99_out_degree": 104.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "criterion": ">= 31 syn",
+   "edges": 375335,
+   "edges_pct": 1.765,
+   "synapses_pct": 22.746,
+   "neurons_isolated": 49304,
+   "isolated_pct": 34.722,
+   "median_in_degree": 0.0,
+   "median_out_degree": 1.0,
+   "p99_out_degree": 31.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "criterion": ">= 0.9% of input",
+   "edges": 3636544,
+   "edges_pct": 17.101,
+   "synapses_pct": 44.126,
+   "neurons_isolated": 103,
+   "isolated_pct": 0.073,
+   "median_in_degree": 27.0,
+   "median_out_degree": 15.0,
+   "p99_out_degree": 168.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "criterion": ">= 2.6% of input",
+   "edges": 927972,
+   "edges_pct": 4.364,
+   "synapses_pct": 19.021,
+   "neurons_isolated": 2942,
+   "isolated_pct": 2.072,
+   "median_in_degree": 7.0,
+   "median_out_degree": 2.0,
+   "p99_out_degree": 49.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "criterion": ">= 1 syn",
+   "edges": 8652823,
+   "edges_pct": 100.0,
+   "synapses_pct": 100.0,
+   "neurons_isolated": 9,
+   "isolated_pct": 0.021,
+   "median_in_degree": 153.0,
+   "median_out_degree": 158.0,
+   "p99_out_degree": 853.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "criterion": ">= 5 syn",
+   "edges": 2084517,
+   "edges_pct": 24.091,
+   "synapses_pct": 75.61,
+   "neurons_isolated": 207,
+   "isolated_pct": 0.475,
+   "median_in_degree": 26.0,
+   "median_out_degree": 33.0,
+   "p99_out_degree": 261.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "criterion": ">= 10 syn",
+   "edges": 1025959,
+   "edges_pct": 11.857,
+   "synapses_pct": 60.77,
+   "neurons_isolated": 717,
+   "isolated_pct": 1.644,
+   "median_in_degree": 9.0,
+   "median_out_degree": 13.0,
+   "p99_out_degree": 157.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "criterion": ">= 31 syn",
+   "edges": 245216,
+   "edges_pct": 2.834,
+   "synapses_pct": 33.285,
+   "neurons_isolated": 7391,
+   "isolated_pct": 16.943,
+   "median_in_degree": 1.0,
+   "median_out_degree": 2.0,
+   "p99_out_degree": 48.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "criterion": ">= 0.9% of input",
+   "edges": 971505,
+   "edges_pct": 11.228,
+   "synapses_pct": 41.439,
+   "neurons_isolated": 45,
+   "isolated_pct": 0.103,
+   "median_in_degree": 23.0,
+   "median_out_degree": 13.0,
+   "p99_out_degree": 155.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "criterion": ">= 2.6% of input",
+   "edges": 234339,
+   "edges_pct": 2.708,
+   "synapses_pct": 16.86,
+   "neurons_isolated": 2741,
+   "isolated_pct": 6.283,
+   "median_in_degree": 5.0,
+   "median_out_degree": 1.0,
+   "p99_out_degree": 55.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "criterion": ">= 1 syn",
+   "edges": 11130458,
+   "edges_pct": 100.0,
+   "synapses_pct": 100.0,
+   "neurons_isolated": 79,
+   "isolated_pct": 0.08,
+   "median_in_degree": 73.0,
+   "median_out_degree": 82.0,
+   "p99_out_degree": 637.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "criterion": ">= 5 syn",
+   "edges": 2629540,
+   "edges_pct": 23.625,
+   "synapses_pct": 65.77,
+   "neurons_isolated": 242,
+   "isolated_pct": 0.246,
+   "median_in_degree": 15.0,
+   "median_out_degree": 19.0,
+   "p99_out_degree": 140.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "criterion": ">= 10 syn",
+   "edges": 988634,
+   "edges_pct": 8.882,
+   "synapses_pct": 42.408,
+   "neurons_isolated": 1406,
+   "isolated_pct": 1.429,
+   "median_in_degree": 5.0,
+   "median_out_degree": 6.0,
+   "p99_out_degree": 56.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "criterion": ">= 31 syn",
+   "edges": 114870,
+   "edges_pct": 1.032,
+   "synapses_pct": 12.846,
+   "neurons_isolated": 42722,
+   "isolated_pct": 43.429,
+   "median_in_degree": 0.0,
+   "median_out_degree": 0.0,
+   "p99_out_degree": 13.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "criterion": ">= 0.9% of input",
+   "edges": 2550685,
+   "edges_pct": 22.916,
+   "synapses_pct": 48.871,
+   "neurons_isolated": 91,
+   "isolated_pct": 0.093,
+   "median_in_degree": 27.0,
+   "median_out_degree": 15.0,
+   "p99_out_degree": 166.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "criterion": ">= 2.6% of input",
+   "edges": 680007,
+   "edges_pct": 6.109,
+   "synapses_pct": 22.633,
+   "neurons_isolated": 1839,
+   "isolated_pct": 1.869,
+   "median_in_degree": 7.0,
+   "median_out_degree": 2.0,
+   "p99_out_degree": 46.0
+  }
+ ],
+ "B3": {
+  "fafb": {
+   "abs_only": 206014,
+   "rel_only": 684960,
+   "both": 315269,
+   "neither": 4519016,
+   "disagree_pct_of_all": 15.562160593957408,
+   "disagree_pct_of_passing_either": 73.8635581719438
+  },
+  "malecns": {
+   "abs_only": 529942,
+   "rel_only": 475488,
+   "both": 496017,
+   "neither": 7151376,
+   "disagree_pct_of_all": 11.619676029429932,
+   "disagree_pct_of_passing_either": 66.96406866176429
+  }
+ },
+ "B4": {
+  "fafb": {
+   "tau": 10,
+   "edges_share": 0.09104968002320943,
+   "synapses_share": 0.5373616515161432
+  },
+  "malecns": {
+   "tau": 10,
+   "edges_share": 0.11856928080003486,
+   "synapses_share": 0.6077000750174517
+  }
+ },
+ "B5": {
+  "tau10": {
+   "pairs_either": 141852,
+   "pairs_both": 76603,
+   "only_a": 26753,
+   "only_b": 38496,
+   "pearson_r_log10": 0.7916598264256784,
+   "share_diff_gt_30pct": 0.5633460830515776,
+   "median_log2_b_over_a": 0.10691520391651188
+  },
+  "tau1": {
+   "pairs_either": 1630121,
+   "pairs_both": 610890,
+   "only_a": 483285,
+   "only_b": 535946,
+   "pearson_r_log10": 0.7734380709537889,
+   "share_diff_gt_30pct": 0.683442190901799,
+   "median_log2_b_over_a": 0.0
+  }
+ },
+ "B6": {
+  "tau10": {
+   "pairs_either": 181242,
+   "pairs_both": 79168,
+   "only_a": 23579,
+   "only_b": 78495,
+   "pearson_r_log10": 0.7717664965248733,
+   "share_diff_gt_30pct": 0.721036277283751,
+   "median_log2_b_over_a": 0.5849625007211562,
+   "matched_types": 7026
+  },
+  "tau1": {
+   "pairs_either": 1533007,
+   "pairs_both": 584516,
+   "only_a": 374703,
+   "only_b": 573788,
+   "pearson_r_log10": 0.7904175811412816,
+   "share_diff_gt_30pct": 0.7549374183084808,
+   "median_log2_b_over_a": 0.5849625007211562,
+   "matched_types": 7026
+  }
+ },
+ "B7": {
+  "raw": [
+   {
+    "component": "PC1",
+    "r": 0.4268,
+    "spearman_rho": 0.8587,
+    "explained_variance": 0.0556
+   },
+   {
+    "component": "PC2",
+    "r": 0.0897,
+    "spearman_rho": 0.3556,
+    "explained_variance": 0.0402
+   },
+   {
+    "component": "PC3",
+    "r": -0.3876,
+    "spearman_rho": -0.6145,
+    "explained_variance": 0.0342
+   },
+   {
+    "component": "PC4",
+    "r": -0.0272,
+    "spearman_rho": -0.2327,
+    "explained_variance": 0.0245
+   },
+   {
+    "component": "PC5",
+    "r": 0.0412,
+    "spearman_rho": 0.022,
+    "explained_variance": 0.0234
+   }
+  ],
+  "normalised_rows": [
+   {
+    "component": "PC1",
+    "r": -0.002,
+    "spearman_rho": -0.0473,
+    "explained_variance": 0.0363
+   },
+   {
+    "component": "PC2",
+    "r": -0.1217,
+    "spearman_rho": -0.2239,
+    "explained_variance": 0.0336
+   },
+   {
+    "component": "PC3",
+    "r": 0.2268,
+    "spearman_rho": 0.2603,
+    "explained_variance": 0.0239
+   },
+   {
+    "component": "PC4",
+    "r": -0.0099,
+    "spearman_rho": -0.0483,
+    "explained_variance": 0.0208
+   },
+   {
+    "component": "PC5",
+    "r": 0.0089,
+    "spearman_rho": -0.0213,
+    "explained_variance": 0.0202
+   }
+  ],
+  "info": {
+   "neurons": 43871,
+   "columns": 162
+  },
+  "info_normalised": {
+   "neurons": 43871,
+   "columns": 158
+  }
+ }
+}
